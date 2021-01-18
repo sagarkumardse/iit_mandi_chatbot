@@ -1,0 +1,438 @@
+{
+        "intents": [{
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi",
+                                "How are you",
+                                "Is anyone there?",
+                                "Hello",
+                                "Good day",
+                                "Whats up",
+                                "how are ya",
+                                "heyy",
+                                "whatsup",
+                                "Yo",
+                                "Gideon"
+                        ],
+                        "responses": [
+                                "Hello!",
+                                "Good to see you again!",
+                                "Hi there, how can I help?",
+                                "Hola!!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "feeling",
+                        "patterns": ["How are you feeling?", "How are you", "Are you fine,", "Are you alive?"],
+                        "responses": ["I am an AI,I dont have feelings,By the way thanks for asking"],
+                        "context_set": ""
+                },
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "cya",
+                                "See you later",
+                                "Goodbye",
+                                "I am Leaving",
+                                "Have a Good day"
+                        ],
+                        "responses": [
+                                "Sad to see you go :(",
+                                "Talk to you later",
+                                "Goodbye!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "age",
+                        "patterns": [
+                                "how old",
+                                "how old is Gideon",
+                                "what is your age",
+                                "how old are you",
+                                "age?"
+                        ],
+                        "responses": [
+                                "I was created in Jan 2021"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "name",
+                        "patterns": [
+                                "what is your name",
+                                "what should I call you",
+                                "whats your name?"
+                        ],
+                        "responses": [
+                                "You can call me Gideon.",
+                                "I'm Gideon!",
+                                "I am called Gideon,named after the AI created by Barry Allen."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "climate",
+                        "patterns": [
+                                "climate in iit mandi?",
+                                "Is it too cold in iit mandi?",
+                                "Weather at IIT Mandi"
+                        ],
+                        "responses": [
+                                "It has 3 distinct seasons- Winter(November-March), Summer(April-June) and Monsoon(July-September). It is warm and pleasant during April-October. The Maximum temperature tends to exceed 30° C. There is a huge variation in temperature daily and also between day and night time. Most of the time the weather is pleasant. Winters are freezing when snow descends to around 1200 m ASL. On 14th December,2014, a Sunday, there was heavy snowfall in Kamand. From 12:30 pm onwards, it started to precipitate. At first, a heavy winter shower occurred and was replaced by small white snow,which was followed by heavy snowfall ,which resembled large cottony flakes. Within a while,the 3 Mountains were covered with white snow caps.It was for the first time known, Kamand experienced snowfall. It was all of a sudden,not expected by the weather forecast. There was a blockage in the road connecting Kamand and Mandi due to the slippery snow-covering. It was later cleared by using an excavator.",
+                                "In the working days it is not too cold, Most of the time the weather is pleasant. Winters are freezing when snow descends to around 1200 m ASL."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Perception about IIT Mandi",
+                        "patterns": [
+                                "How is it like to be in iit mandi?",
+                                "What is the best part of iit mandi?",
+                                "What do you like about iit mandi?",
+                                "What can I expect from iit mandi?",
+                                "Explain about iit mandi in a nutshell."
+                        ],
+                        "responses": [
+                                "IIT Mandi is a great place for growth and making memories worth remembering. It feels great to be in IIT Mandi, the pollution free environment, the splendid  beauty of the valley adds a great impact on overall experience. The college is improving after each year with really appreciable academics curriculum and career opportunities.  "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "vacation",
+                        "patterns": [
+                                "Does the winter affects the vacations IIT Mandi?",
+                                "What are the various vacations in IIT Mandi ? ",
+                                "Winter Vacation at IIT Mandi"
+                        ],
+                        "responses": [
+                                "The cold weather starts around the Diwali and will remain till late march.The winter season is the worst part of the Mandi.(that is why IIT Mandi gives  2 months winter vacation ).So you are advised to bring blanket with you as cold start drifting from august itself.",
+                                "For a detailed insight of vacations you can go through the academic calender of IIT Mandi at https://iitmandi.ac.in/academics/calendar.php"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Coding",
+                        "patterns": [
+                                "How is the coding culture of iit mandi?",
+                                "What is our position in coding compared to other new IITs",
+                                "Where do we stand in coding with other 2nd generation IITs?",
+                                "Coding in IIT MANDI"
+                        ],
+                        "responses": [
+                                "IIT Mandi has a decent Coding Culture and it is improving at a very fast pace, IIT Mandi has rocked this year in GSoC selections although we have a room of improvement ICPC, overall it will be a good experience with coding over here ; )",
+                                "Here are some recent stats: GSoC selections for 2020: Indore : 3 students Ropar : 2 students Patna : 6 students Hyderabad : 1 student Bhubaneswar : 1 student Gandhinagar : None from their college knows (I think 0) Mandi : 9 students + 6 mentors. Also there is a room for improvement  in ICPC(competitive programming), we are improving upon that too year by year. Open source culture is better at our college. as shown by GSoC selections. Apart from the GSoC selections, many were also selected in Linux community bridge, which is an equally prestigious program."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Placements",
+                        "patterns": [
+                                "How are the placements in IIT Mandi ?",
+                                "Give some insights on recent placements",
+                                "Does the location of iit mandi affects its placements?",
+                                "Do amazon visit iit mandi?",
+                                "Do microsoft visit iit mandi?",
+                                "How is the placement of core branches?",
+                                "How wide is the alumni network of iit mandi?"
+                        ],
+                        "responses": [
+                                "IIT Mandi has a decent placement record and it is improving year by year.You can find more about it over here - https: //collegedunia.com/university/25559-indian-institute-of-technology-iit-mandi/placement ",
+                                "IIT Mandi has recently completed its placement cycle for the year 2020. The institute provides placement offers for all the postgraduate and undergraduate courses. The placement drive for the year 2019-2020 successfully completed with 85% offers to the undergraduate students registered for the placement drive. The institute also recorded the highest number of offers(142) which were provided to 101 studen.",
+                                "Some of the renowned recruiters of final placements 2020 included HPCL, Microsoft, Amazon, Goldman Sachs, DE Shaw, Optum, Tonichi Insatsu, Robert Bosch, etc.Location doesn 't stop a student to show his/her potential. As IIT Mandi is no more a very new college it has developed and is developing its alumni network with a faster pace as the number of students in a new passing batch is more than the previous one."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "creator",
+                        "patterns": [
+                                "what is the name of your developers",
+                                "what is the name of your creators",
+                                "what is the name of the developers",
+                                "what is the name of the creators",
+                                "who created you",
+                                "your developers",
+                                "your creators",
+                                "who are your developers",
+                                "developers",
+                                "you are made by",
+                                "you are made by whom",
+                                "who created you",
+                                "who create you",
+                                "creators",
+                                "who made you",
+                                "who designed you"
+                        ],
+                        "responses": [
+                                "Datashitters developed me in Jan 2021",
+                                "I was developed by Datashitters"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "pickup center",
+                        "patterns": [
+                                "Can we order from Flipkart or Amazon or other online shopping websites in the campus?",
+                                "Online shopping available in Mandi"
+                        ],
+                        "responses": [
+                                "Yes we can order from several different apps and websites and order is delivered at the campus.",
+                                "We can place order at a variety of online stores and it is delivered at the campus"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "club participation",
+                        "patterns": [
+                                "Do i need to register to get into a club?"
+                        ],
+                        "responses": [
+                                "Every student is already a member of every club in the first year. From 2nd year on you can choose a club in which you want to be active in"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Wi-fi",
+                        "patterns": [
+                                "What is the speed of Wi Fi at our IIT?",
+                                "How is the speed of Wi Fi at IIT Mandi",
+                                "Do we have a free wi fi at IIT Mandi"
+                        ],
+                        "responses": [
+                                "Presently, for INTERNET access, IIT Mandi has high-speed links with a total capacity of 1Gbps through NKN facility and a back-up link of 200 Mbps from one of the INTERNET service providers."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Swimming Pool",
+                        "patterns": [
+                                "Anything for a swimmer",
+                                "Do we have a swimming pool"
+                        ],
+                        "responses": [
+                                " We have a swimming pool. You must have swimming costume for it "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Thiefs",
+                        "patterns": [
+                                "Theifs?",
+                                "Are there any cases of stealing money in college?"
+                        ],
+                        "responses": [
+                                "Chill dude.. nothing like that, but you can keep your own case safe"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Mobile sim",
+                        "patterns": [
+                                "Which sim card works best in IIT Mandi”,” Which sim should I carry with me?"
+                        ],
+                        "responses": [
+                                "Particularly, jio and Airtel works fine. "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Commodities",
+                        "patterns": [
+                                "do we get all the commodities in the campus itself?",
+                                "how frequently do we need to visit to buy items to the city",
+                                "can I find the basic items in the campus itself?",
+                                "Items of daily use ? "
+                        ],
+                        "responses": [
+                                "Yes all the basic commodities can be found in the campus itself and it depends on you if you want some other item, city is not far:)."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "People",
+                        "patterns": [
+                                "how was the people in IIT Mandi",
+                                "how are the people in Mandi",
+                                "how are the people in kamand"
+                        ],
+                        "responses": [
+                                "People here are very friendly in Mandi  and you will find people here are very helpful and support you and it turns on your attitude:)"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Alumni",
+                        "patterns": [
+                                "How is the Alumni Network in IIT Mandi?",
+                                "Do Alumni fund the institution?",
+                                "Who are some notable Alumni?"
+                        ],
+                        "responses": [
+                                "IIT Mandi has a very widespread alumni network who are well settled in their lives. They are indeed a major source of Funding for the institution. To know more about notable alumni click here https://alumniconnect.iitmandi.ac.in/"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Animals",
+                        "patterns": [
+                                "Are their wild animals near the campus?"
+                        ],
+                        "responses": [
+                                "There is a wide variety of flora and fauna in the main campus and you can see some wonderful pictures online."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "River",
+                        "patterns": [
+                                "Is there a river near the main campus of IIT Mandi?",
+                                "Are we permitted or allowed to go near the river?"
+                        ],
+                        "responses": [
+                                "There is indeed a stream flowing near the campus but unfortunately students are not allowed to go near the river without permission for college council T_T"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "clothes",
+                        "patterns": [
+                                "What Clothes do we need to bring",
+                                "Winter Clothes in College",
+                                "How much clothes",
+                                "What kind of clothes we need to bring",
+                                "Do we need quilt",
+                                "Do we need Blankets",
+                                "Do we need umbrella",
+                                "Formal or informal clothes"
+                        ],
+                        "responses": [
+                                ["IIT Mandi has quite a long winters. You need winter clothing since October until March in IIT Mandi. November-Feb have extreme cold weather, so pack accordingly. Also umbrella here is a necessity as it can rain anytime here.Quilt and Blankets are Require by October. Also Both Formal and Informal clothes are recommended",
+                                "Due to chilly winters, you are advised to bring winter clothes, Blankets and other stuff accordingly. Most of the time studens wear informal clothes, even when we have to go to lectures, but you don't want to look dull in Fresher's Party, so both formal and informal clothes are recommended."]
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Laptop",
+                        "patterns": [
+                                "Which Laptop should I buy",
+                                "Should I buy a Laptop",
+                                "Do I need a laptop"
+                        ],
+                        "responses": [
+                                "Immaterial of the branch you are in, you would need access to computer for doing assignments and course work. It would be good if you can bring your own laptop, but in case you are not able to, you can always go to the PC lab. For students taking education loan, purchase of laptop is included in the loan agreement by most banks."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hostel rooms",
+                        "patterns": [
+                                "How are hostel rooms?",
+                                "How many people lives in one room",
+                                "How many occupants are there of one room”,”Is there a cupboard in Hostel room",
+                                "Electric appliances in hostel?"
+                        ],
+                        "responses": [
+                                "There are 3 kinds of rooms,with single occupant, with two occupants and the most common are with three occupants. Single occupant rooms are primarily not available for first yearites. Do not bring any high power consuming electric items like electric cooker, water heater etc. They are fire hazards and are strictly prohibited in the hostels."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Fees",
+                        "patterns": [
+                                "How do I pay the fees?",
+                                "What is the fees structure?",
+                                "When to pay the fees"
+                        ],
+                        "responses": [
+                                "Kindly refer to the fees structure link on IIT Mandi also refer http://www.iitmandi.ac.in/gcs/Fees_Details_JEE_2020.pdfils_JEE_2020.pdf"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "thanks",
+                        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me","Gracias"],
+                        "responses": ["Happy to help!", "Any time!", "My pleasure","De Nada"],
+                        "context": [""]
+                },
+                {"tag": "noanswer",
+                        "patterns": [],
+                        "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+                        "context": [""]
+                },
+                {
+                        "tag": "options",
+                        "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+                        "responses": ["I can guide you through your questions about college", "Offering support for your questions"],
+                        "context": [""]
+                },
+                {"tag" :"branch change",
+                        "patterns" : ["Can I change my branch to Computer Science",
+                                "What are branch Change policies at IIT Mandi",
+                                "How to change your branch",
+                                "Requirements for Branch Change at IIT Mandi",
+                                "I want to pursue Computer Science. How should i change my banch.",
+                                "branch change policies",
+                                "branch change"],
+                        "responses" :["IIT Mandi has a very lenient branch change policy as compared to other IIT's. For detailed information plese go to this link 'https://iitmandi.ac.in/academics/branch_change.php?fbclid=IwAR3GtBD5iZVQ6dUdGj2MBV2BYf6bB4_RnwTwFbPtAnnLXYiaVgZsxmJyzww'",
+                                        "If you want know about branch change policies  please follow this link 'https://iitmandi.ac.in/academics/branch_change.php?fbclid=IwAR3GtBD5iZVQ6dUdGj2MBV2BYf6bB4_RnwTwFbPtAnnLXYiaVgZsxmJyzww'",
+                                        "To know about branch change policies at IIT Mandi, visit this link 'https://iitmandi.ac.in/academics/branch_change.php?fbclid=IwAR3GtBD5iZVQ6dUdGj2MBV2BYf6bB4_RnwTwFbPtAnnLXYiaVgZsxmJyzww'"],
+                        "context" : [""]
+                },
+                {"tag" : "5wip",
+                        "patterns" : [" what is five week induction program at iit Mandi", 
+                                "What is 5wip",
+                                 "5WIP?",
+                                  "what can you tell me about 5 week induction",
+                                  "How many iit's have 5 week induction?"],
+                        "responses" : ["5 Week induction program is a special program(one of its kind) orgnized by IIT Mandi in which students are taught about school to college life transition. To know in detail click on this link 'http://www.iitmandi.ac.in/nss/pdf/9.%20FIVE%20WEEK%20INDUCTION%20PROGRAMME%20(5%20WIP).pdf'",
+                                "School to college transition is not easy, thus IIT Mandi provides students the opportunity to know how things works in a college. There are fun activies with a lot of learning in the process. To know more click 'http://www.iitmandi.ac.in/nss/pdf/9.%20FIVE%20WEEK%20INDUCTION%20PROGRAMME%20(5%20WIP).pdf'"],
+                        "context" : [""]
+                },
+                {"tag" : "stationary",
+                        "patterns" : ["are there any stationaries in iit mandi", "How do i buy regular day stuff in college","Where can i buy soap, shampoo, etc?","Is there any stationary near IIT mandi","Where to buy groceries in iit mandi","where can i buy daily stuff at iit mandi"],
+                        "responses" : ["There are two stationary situated in and near north campus and a few in south campus from where you can buy your essestinals, if that's not it then you can visit Mandi town as institute provide frequent busses for Mandi town.", "Yes there are sevral stationaries in IIT Mandi campus from where you can buy stuff.", "There are sevral stationaries and food vendors in the campus, you can buy stuff from there, if that's not it then you can visit to Mandi town.", "IIT Mandi campus is well equiped to fulfill the baisc requirements of students and faculties. There are sevral shops from where you can buy groceries, food-items, etc."],
+                        "context" : [""]
+                },
+                {"tag" : "reach",
+                        "patterns" : ["way to iit mandi","How to reach iit mandi", "How to reach IIT Mandi from delhi", "How to reach IIT Mandi via bus", "How to reach IIT Mandi from indore", "How can i reach iit mandi from chandigarh", "How to reach iit mandi via train", "How to reach iit mandi via air", "jaipur to mandi", "rajisthan to mandi","how to arrive at iit mandi"], 
+                        "responses" : ["Your main task is to reach Delhi or chandigarh, form there there are busses almost daily from where you can reach mandi.", "Visit this link for  information regarding how to reach Mandi 'http://iitmandi.ac.in/institute/campus/how_to_reach.php'", "Mandi is well connected with Delhi and chandigarh, you can reach here via road, train or bus. To know more click on the link 'http://iitmandi.ac.in/institute/campus/how_to_reach.php'"],
+                        "context" : [""]
+                },
+                {"tag" : "education loan",
+                        "patterns" : ["apply for education loan", "is there any education loan at iit mandi", "can i apply for education loan", "education loan"],
+                        "responses" : ["As of 2020, IIT-Mandi does not have tie-up with any institution providing education loan. Please get in touch with a bank of your choice for details on Education loan. To know more visit 'https://www.iitmandi.ac.in/gcs/educationloan.php'"],
+                        "context":[""]
+                },
+                {"tag" : "places to visit",
+                        "patterns" : ["what is there to visit in iit mandi", "where can i go for trips from iit mandi", "nearby cities", "is kullu manali near iit mandi", "how to reach shimla form iit mandi"],
+                        "responses" : ["Mandi being the only way to reach nation-wide famous Hill Stations, Kullu, Manali and Shimla makes it very convenient to visit them. There are frequent buses and it take only a few hours to reach Manali from Mandi. Not only these there are many places even nearer to campus like Prashar Lake which are worth paying visit.", "Belive it or not, IIT Mandi itself is a beautiful place and there are lots of places where you can visit in the campus area itself(after you have gained experience in 5WIP).If you want to go to a trip but only have a weekend, don't worry, there are places like Prashar, Rewalsar and many others which are worth a visit. Not only this famous hill stations like Kullu, Manali and Shimla are a few hours away from the campus. But remember 'Safety first :)'"],
+                        "context" : [""]
+                },
+                        {"tag" : "clubs",
+                        "patterns" : ["how many clubs are there in iit mandi", "clubs at college", "clubs in iit mandi", "is there a painting club at iit mandi","is there a dancing club at iit mandi","is there a debating club at iit mandi", "is there a hiking and trekking club at iit mandi", "what clubs are there in iit mandi"],
+                        "responses" : ["To showcase different talents, IIT Mandi has various clubs like Dancing club, Painting club, Programming club, Writing club, Music club, etc. To know more about a specifc club click here 'https://wiki.iitmandi.co.in/p/List_of_Societies_and_Clubs'", "You have a talent, show it in a club, you don't have a talent, don't worry, at IIT Mandi each student is allowed to join any number of clubs either to learn something or to teach something. Even you start something from ground zero, you are most welcome to be a part of any group you want to be in. To know what clubs IIT Mandi has visit : 'https://wiki.iitmandi.co.in/p/List_of_Societies_and_Clubs'.", "Intrested in joining clubs, here's a tip : 'Don't be afraid of spleaking or showing your talent'. That's it, nothing more. You can even learn from ground level are every club organize informal sessions for that too. To know what clubs are there in IIT Mandi visit 'https://wiki.iitmandi.co.in/p/List_of_Societies_and_Clubs' "],
+                        "context" : [""]
+                },
+                {"tag" : "canteen",
+                        "patterns" : [ "how is the food at IIT Mandi","Do you like food at mess?","are there canteens in campus", "can we eat food other than mess", "how many canteens are there in campus", "is mees food good", "how is mess food at iit mandi", "mess food", "canteens"],
+                        "responses" : ["Even though Mess food is quite good and what we call a proper blanced diet, if someone wants to change there taste then there are 3 canteens in north campus and  a few in south campus. Food at canteen is also good and every canteen is as hygienic at it can be.", "Even though mess food provides a lot of variety and is also quite good in taste, if someone wants to eat fast food like burger, pizza then canteen provides decent options with great hygiene."],
+                        "context" : [""]
+                },
+                {"tag" :"sports",
+                        "patterns" : ["What sports are played in iit mandi",
+                                        "Can i play cricket in iit Mandi",
+                                        "Can i play badminton in iit mandi",
+                                        "how many sports are there in iit mandi",
+                                        "sports in iit mandi"],
+                        "responses" : ["IIT Mandi provides sports platform for 11 sports, including cricket, Tabel Tennis, Lawn Tennis, Weightlifting, Football, etc. To know more about sports cultute at IIT Mandi visit 'https://wiki.iitmandi.co.in/p/Sports_Society'",
+                                        "IIT Mandi provides big platform for sports like cricket, Table Tennis, Chess, Athletics and others. Not only this, IIT Mandi organize  biggest Sports Fest of the Himalayas, known as RANN-NEETI, to know more about sports cultute visit 'https://wiki.iitmandi.co.in/p/Sports_Society'"],
+                        "context" : [""]
+                },
+                {"tag" : "IIT Mandi",
+                        "patterns" : ["tell me about iit mandi","what do you know about iit mandi","is iit mandi a good college","when was iit mandi established","iit mandi","where is iit mandi"],
+                        "responses" : ["IIT Mandi's permanent campus (about 14 km from Mandi) is fully functional on the left bank of the Uhl River at Kamand and Salgi villages in Mandi . Timothy A. Gonsalves is the founding Director (15/1/2010-30/6/2020) of IIT Mandi and R. C. Sawhney served as the first Registrar. Prof. Ajit Kumar Chaturvedi, Director, IIT Roorkee took charge as Acting Director from 1st July, 2020.","Hey friend!! wnat to know about IIT Mandi? Visit 'https://en.wikipedia.org/wiki/IIT_Mandi'","Bonjur my friend. Want to know about IIT Mandi... Here is a site which can tell you stuff about it 'https://wiki.iitmandi.co.in/p/Main_Page'"],
+                        "context" : [""]
+                }                
+                ]
+}
