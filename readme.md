@@ -8,6 +8,8 @@ Now when we ask any query, the model try n find the tag related to it, then rand
 ## Where to find the actual running version?
 Just to telegram and search "__Gideon__", inspired by Flash's interactive AI consciousness. 
 ## Sample Respones of Bot to different queries
-![alt text]https://github.com/sagarkumardse/iit_mandi_chatbot/blob/main/Screenshot%20from%202021-06-18%2014-14-03.png
+<img src="Screenshot from 2021-06-18 14-14-03.png" alt="chat"  />
+<img src="Screenshot from 2021-06-18 14-14-18.png" alt="chat" />
+
 
 Note : This bot is designed specially for 1st yearites joining IIT Mandi.
